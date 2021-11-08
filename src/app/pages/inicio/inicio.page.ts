@@ -23,6 +23,16 @@ export class InicioPage implements OnInit {
       icon: 'logo-apple-ar',
       name: 'Alert',
       redirectTo: '/alert'
+    },
+    {
+      icon: 'beaker-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Botones',
+      redirectTo: '/button'
     }
   ];
 
