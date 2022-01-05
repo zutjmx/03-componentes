@@ -53,6 +53,21 @@ export class InicioPage implements OnInit {
       icon: 'car-sport-outline',
       name: 'Fab',
       redirectTo: '/fab'
+    },
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite Scroller',
+      redirectTo: '/infinite'
+    },
+    {
+      icon: 'code-working-outline',
+      name: 'Input',
+      redirectTo: '/input'
     }
   ];
 
