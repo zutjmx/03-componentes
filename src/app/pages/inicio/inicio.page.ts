@@ -68,6 +68,16 @@ export class InicioPage implements OnInit {
       icon: 'code-working-outline',
       name: 'Input',
       redirectTo: '/input'
+    },
+    {
+      icon: 'list-outline',
+      name: 'List',
+      redirectTo: '/list'
+    },
+    {
+      icon: 'reorder-four-outline',
+      name: 'List - ReOrder',
+      redirectTo: '/list-reorder'
     }
   ];
 

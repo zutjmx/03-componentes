@@ -12,7 +12,7 @@
     </ion-item>
   </ion-list>
 
-  <form #formulario="ngForm" (ngSubmit)="onSubmit()">
+  <form #formulario="ngForm" (ngSubmit)="onSubmit(formulario)">
     <ion-list-header>
       <ion-label>Formulario válido: {{formulario.valid}}</ion-label>
     </ion-list-header>
