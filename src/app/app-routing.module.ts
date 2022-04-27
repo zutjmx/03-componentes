@@ -63,6 +63,14 @@ const routes: Routes = [
     path: 'list-reorder',
     loadChildren: () => import('./pages/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
   },
+  {
+    path: 'card-usuario',
+    loadChildren: () => import('./pages/card-usuario/card-usuario.module').then( m => m.CardUsuarioPageModule)
+  },
+  {
+    path: 'loading',
+    loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule)
+  },
 ];
 
 @NgModule({
